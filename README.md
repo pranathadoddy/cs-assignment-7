@@ -27,3 +27,18 @@ http://157.245.157.217/pertemuan7/user/edit_data.php?id=2
 
 
 dapat mengakses databarang yang lain
+
+## Host Header
+
+Menganalisa halaman depan user didapatkan beberapa fitur
+
+- Login 
+- Register
+- Forgot password
+
+karena kerentanan host header paling berpotensi paa forgot password maka dicoba mengganti host hheader ketika submit forgot password dengan menggunakan burp suite sehingga diperoleh hasil sebagai berikut
+
+![image](https://user-images.githubusercontent.com/6330046/189152869-3f5409e5-3d08-4d39-a866-05f1df20c3f6.png)
+
+
+
